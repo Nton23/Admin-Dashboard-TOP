@@ -1,0 +1,16 @@
+:root {
+    --background-color: ;
+    --dasboard-background-color: ;
+    --searchbar-area-background-color: ;
+    --navbar-area-background-color: ;
+    --button-color: ;
+    --font-color: ;
+    --dashboard-font-color: ;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
