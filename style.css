@@ -14,3 +14,19 @@
     padding: 0;
 }
 
+.main-grid-container {
+    border: solid black;
+    height: 100vh;
+}
+.dashboard-area {
+    border: solid blue;
+}
+.searchbar-and-account-area {
+    border: solid red;
+}
+.navbar-area {
+    border: dashed red;
+}
+.project-display-area {
+    border: solid brown;
+}
