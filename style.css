@@ -43,4 +43,8 @@
 }
 .project-display-area {
     border: solid brown;
+    grid-row-start: 3;
+    grid-row-end: 7;
+    grid-column-start: 2;
+    grid-column-end: 5;
 }
