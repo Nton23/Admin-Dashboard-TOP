@@ -17,6 +17,8 @@
 .main-grid-container {
     border: solid black;
     height: 100vh;
+    display: grid;
+    grid-template: 25% 25% 25% 25% / 25% 25% 25% 25%;
 }
 .dashboard-area {
     border: solid blue;
