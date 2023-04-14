@@ -22,6 +22,8 @@
 }
 .dashboard-area {
     border: solid blue;
+    grid-row-start: 1;
+    grid-row-end: 5;
 }
 .searchbar-and-account-area {
     border: solid red;
