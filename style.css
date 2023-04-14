@@ -36,6 +36,10 @@
 }
 .navbar-area {
     border: dashed red;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 2;
+    grid-column-end: 5;
 }
 .project-display-area {
     border: solid brown;
