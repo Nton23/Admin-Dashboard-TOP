@@ -18,15 +18,21 @@
     border: solid black;
     height: 100vh;
     display: grid;
-    grid-template: 25% 25% 25% 25% / 25% 25% 25% 25%;
+    grid-template: 10% 10% 27.5% 25% 27.5% / 25% 25% 25% 25%;
 }
 .dashboard-area {
     border: solid blue;
     grid-row-start: 1;
-    grid-row-end: 5;
+    grid-row-end: 6;
+    grid-column-start: 1;
+    grid-column-end: 2;
 }
 .searchbar-and-account-area {
     border: solid red;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 2;
+    grid-column-end: 5;
 }
 .navbar-area {
     border: dashed red;
