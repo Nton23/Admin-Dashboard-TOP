@@ -75,6 +75,15 @@
     grid-column-start: 2;
     grid-column-end: 5;
 }
+
+.search-bar-container {
+    border: solid black;
+}
+
+.search-bar-icon {
+    color: black;
+}
+
 .navbar-area {
     border: dashed red;
     grid-row-start: 2;
