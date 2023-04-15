@@ -61,6 +61,13 @@
     grid-row-start: 2;
     grid-row-end: 6;
 }
+
+.setting-container {
+    border: solid black;
+    grid-row-start: 6;
+    grid-row-end: 8;
+}
+
 .searchbar-and-account-area {
     border: solid red;
     grid-row-start: 1;
