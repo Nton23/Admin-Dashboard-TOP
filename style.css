@@ -79,6 +79,7 @@
 
 .search-bar-container {
     border: solid black;
+    width: 70%;
 }
 
 .search-bar-icon {
@@ -91,6 +92,14 @@
 
 .noti-user-name-container {
     border: solid blue;
+    width: 30%;
+}
+
+.noti-user-name-container ul {
+    width: 100%;
+    display: flex;
+    border: solid green;
+    
 }
 
 .navbar-area {
