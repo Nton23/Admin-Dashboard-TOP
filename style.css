@@ -117,7 +117,10 @@
     width: 50%;
 }
 
-
+.list-post-container {
+    border: solid blue;
+    width: 50%;
+}
 
 .project-display-area {
     border: solid brown;
