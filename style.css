@@ -111,6 +111,14 @@
     grid-column-start: 2;
     grid-column-end: 5;
 }
+
+.user-icon-name-container {
+    border: solid black;
+    width: 50%;
+}
+
+
+
 .project-display-area {
     border: solid brown;
     grid-row-start: 3;
