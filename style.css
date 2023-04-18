@@ -116,10 +116,14 @@
 .user-icon-name-container {
     border: solid black;
     width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .user-icon-name-container ul {
     border: dashed black;
+    width: 100%;
     display: grid;
     grid-template: repeat(2, 50%), 20% 80%;
 }
