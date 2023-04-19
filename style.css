@@ -152,6 +152,13 @@
     width: 50%;
 }
 
+.list-post-container ul {
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
 .project-display-area {
     border: solid brown;
     grid-row-start: 3;
