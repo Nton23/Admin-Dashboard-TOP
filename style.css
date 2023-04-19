@@ -125,7 +125,7 @@
     border: dashed black;
     width: 100%;
     display: grid;
-    grid-template: repeat(2, 50%), 20% 80%;
+    grid-template: repeat(2, 50%)/ 20% 80%;
 }
 
 .user-icon {
@@ -165,4 +165,11 @@
     grid-row-end: 7;
     grid-column-start: 2;
     grid-column-end: 5;
+    display: grid;
+    grid-template: 10%, repeat(3, 30%) / repeat(2, 80%), 20%;
+}
+
+.header-container {
+    grid-row-start: 0;
+    
 }
