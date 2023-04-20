@@ -166,23 +166,14 @@
     grid-column-start: 2;
     grid-column-end: 5;
 }
-
-.header-container{
+.project-area {
     border: solid black;
 }
 
-.project-post-container {
+.announcement-area {
     border: solid black;
 }
 
-.announcement-header-container {
+.trending-area {
     border: solid black;
 }
-
-.post-box {
-    width: 30%;
-    height: 100px;
-    border: solid black;
-}
-
-
