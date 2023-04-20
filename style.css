@@ -1,11 +1,11 @@
 :root {
-    --background-color: ;
-    --dasboard-background-color: ;
-    --searchbar-area-background-color: ;
-    --navbar-area-background-color: ;
-    --button-color: ;
-    --font-color: ;
-    --dashboard-font-color: ;
+    --background-color: #A7A7A7;
+    --dasboard-background-color: #1992D4;
+    --searchbar-area-background-color: #FFFFFF;
+    --navbar-area-background-color: #FFFFFF;
+    --button-color: #1992D4;
+    --font-color: #000000;
+    --dashboard-font-color: #FFFFFF;
 }
 
 * {
@@ -21,7 +21,7 @@
     grid-template: 10% 10% 27.5% 25% 27.5% / repeat(4, 25%);
 }
 .dashboard-area {
-    border: solid blue;
+    background-color: var(--dasboard-background-color);
     grid-row-start: 1;
     grid-row-end: 6;
     grid-column-start: 1;
