@@ -205,3 +205,13 @@
 .trending-area {
     border: solid black;
 }
+
+.trending-container {
+    border: solid red;
+    height: 95%;
+}
+
+.trending-box {
+    border: solid black;
+    height: 25%;
+}
