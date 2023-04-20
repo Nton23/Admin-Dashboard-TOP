@@ -166,10 +166,12 @@
     grid-column-start: 2;
     grid-column-end: 5;
     display: grid;
-    grid-template: repeat(2, 50%) / 80% 20%;
+    grid-template: repeat(2, 50%) / 65% 35%;
 }
 .project-area {
     border: solid black;
+    grid-row-start: 1;
+    grid-row-end: 3;
 }
 
 .announcement-area {
