@@ -165,6 +165,8 @@
     grid-row-end: 7;
     grid-column-start: 2;
     grid-column-end: 5;
+    display: grid;
+    grid-template: repeat(2, 50%) / 80% 20%;
 }
 .project-area {
     border: solid black;
