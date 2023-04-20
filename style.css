@@ -187,8 +187,19 @@
     width: 95%;
     height: 200px;
 }
+
 .announcement-area {
     border: solid black;
+}
+
+.announcement-container {
+    border: solid red;
+    height: 95%;
+}
+
+.announcements-box {
+    border: solid black;
+    height: 30%;
 }
 
 .trending-area {
