@@ -15,7 +15,6 @@
 }
 
 .main-grid-container {
-    border: solid black;
     height: 100vh;
     display: grid;
     grid-template: 10% 10% 27.5% 25% 27.5% / repeat(4, 25%);
@@ -32,10 +31,10 @@
 }
 
 .icon-container {
-    border: solid black;
     grid-row-start: 1;
     grid-row-end: 1;
     display: flex;
+    justify-content: start;
     align-items: center;
 }
 
@@ -58,7 +57,10 @@
 }
 
 .dashboard {
-    border: solid black;
+    margin-left: 15px;
+    color: var(--dashboard-font-color);
+    font-size: 25px;
+    font-weight: bold;
     display: flex;
     justify-content: center;
     align-items: center;
