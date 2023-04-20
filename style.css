@@ -68,8 +68,18 @@
 
 .user-information-container {
     border: solid black;
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
     grid-row-start: 2;
     grid-row-end: 6;
+}
+
+.li-container {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    column-gap: 8px;
 }
 
 .setting-container {
