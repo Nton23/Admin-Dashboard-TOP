@@ -67,9 +67,9 @@
 }
 
 .user-information-container {
-    border: solid black;
     display: flex;
     flex-direction: column;
+    row-gap: 40px;
     margin-left: 15px;
     grid-row-start: 2;
     grid-row-end: 6;
@@ -80,6 +80,13 @@
     display: flex;
     align-items: center;
     column-gap: 8px;
+    color: var(--dashboard-font-color);
+    font-weight: bolder;
+    font-size: 18px;
+}
+
+.li-container .material-icons {
+    color: var(--dashboard-font-color);
 }
 
 .setting-container {
