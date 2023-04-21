@@ -6,6 +6,7 @@
     --button-color: #1992D4;
     --font-color: #000000;
     --dashboard-font-color: #FFFFFF;
+    --icon-color: #FACC15;
 }
 
 * {
@@ -122,16 +123,20 @@
 }
 
 .noti-user-name-container {
-    border: solid blue;
     width: 30%;
+    display: flex;
+    justify-content: center;
+    column-gap: 20px;
 }
 
-.noti-user-name-container ul {
-    width: 100%;
-    display: flex;
-    border: solid green;
-    justify-content: space-around;
-    
+.noti-li-container .material-icons {
+    color: var(--icon-color);
+}
+
+.noti-li-container {
+    list-style-type: none;
+    font-weight: 15px;
+    font-weight: bold;
 }
 
 .navbar-area {
