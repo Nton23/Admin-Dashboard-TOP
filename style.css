@@ -90,7 +90,10 @@
 }
 
 .setting-container {
-    border: solid black;
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+    margin-left: 15px;
     grid-row-start: 6;
     grid-row-end: 8;
 }
