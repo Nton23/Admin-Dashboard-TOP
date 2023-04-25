@@ -146,6 +146,7 @@
     grid-column-start: 2;
     grid-column-end: 5;
     display: flex;
+    justify-content: space-around;
 }
 
 .user-icon-name-container {
@@ -160,7 +161,7 @@
     border: dashed black;
     width: 100%;
     display: grid;
-    grid-template: repeat(2, 50%)/ 20% 80%;
+    grid-template: repeat(2, 50%)/ 40% 60%;
 }
 
 .user-icon {
@@ -168,6 +169,10 @@
     grid-column-end: 2;
     grid-row-start: 1;
     grid-row-end: 3;
+}
+
+.user-icon .material-icons {
+    font-size: 80px;
 }
 
 .user-hello {
