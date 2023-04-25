@@ -164,6 +164,10 @@
     grid-template: repeat(2, 50%)/ 40% 60%;
 }
 
+.li-user-info {
+    list-style-type: none;
+}
+
 .user-icon {
     grid-column-start: 1;
     grid-column-end: 2;
