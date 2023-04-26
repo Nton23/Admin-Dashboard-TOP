@@ -140,7 +140,6 @@
 }
 
 .navbar-area {
-    border: dashed red;
     grid-row-start: 2;
     grid-row-end: 3;
     grid-column-start: 2;
@@ -168,7 +167,7 @@
 }
 
 .user-icon .material-icons {
-    color: yellow;
+    color: var(--icon-color);
 }
 
 .user-icon {
@@ -204,16 +203,15 @@
 }
 
 .list-post-container {
-    border: solid blue;
     width: 50%;
 }
 
 .list-post-container ul {
-    border: dashed red;
     height: 100%;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
+    column-gap: 50px;
 }
 
 .li-post {
