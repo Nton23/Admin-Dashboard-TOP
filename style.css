@@ -228,13 +228,17 @@
 }
 
 .project-display-area {
-    border: solid brown;
+    border: solid red;
     grid-row-start: 3;
     grid-row-end: 7;
     grid-column-start: 2;
     grid-column-end: 5;
     display: grid;
     grid-template: repeat(2, 50%) / 65% 35%;
+}
+
+.header {
+    margin-left: 18px;
 }
 .project-area {
     border: solid black;
