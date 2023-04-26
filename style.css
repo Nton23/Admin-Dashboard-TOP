@@ -168,6 +168,10 @@
     list-style-type: none;
 }
 
+.user-icon .material-icons {
+    color: yellow;
+}
+
 .user-icon {
     grid-column-start: 1;
     grid-column-end: 2;
@@ -176,6 +180,9 @@
 }
 
 .user-icon .material-icons {
+    border: solid var(--icon-color) 5px;
+    border-radius: 100px;
+    color: var(--icon-color);
     font-size: 80px;
 }
 
