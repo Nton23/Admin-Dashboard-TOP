@@ -1,5 +1,5 @@
 :root {
-    --background-color: #A7A7A7;
+    --background-color: #E2E8F0;
     --dasboard-background-color: #1992D4;
     --searchbar-area-background-color: #FFFFFF;
     --navbar-area-background-color: #FFFFFF;
@@ -241,7 +241,7 @@
     margin-left: 18px;
 }
 .project-area {
-    border: solid black;
+    background-color: var(--background-color);
     grid-row-start: 1;
     grid-row-end: 3;
 }
@@ -255,6 +255,7 @@
     align-items: center;
 }
 .post-box {
+    background-color: #FFF;
     border: solid red;
     width: 95%;
     height: 200px;
