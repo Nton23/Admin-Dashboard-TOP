@@ -243,7 +243,7 @@
 }
 
 .header {
-    margin-left: 18px;
+    margin: 10px 0 0 18px;
 }
 
 .project-area {
@@ -252,7 +252,6 @@
 }
 
 .project-post-container {
-    border: solid black;
     display: grid;
     grid-template: repeat(3, 32%)/ repeat(2, 48%);
     height: 100%;
@@ -273,7 +272,6 @@
 
 .content-info {
     margin: 5px 10px 5px 10px;
-    border: solid red;
     grid-row-start: 1;
     grid-row-end: 2;
 }
@@ -282,7 +280,6 @@
     margin: 0 10px 0 10px;
     grid-row-start: 2;
     grid-row-end: 3;
-    border: solid blue;
     display: flex;
     justify-content: flex-end;
     column-gap: 20px;
@@ -290,7 +287,6 @@
 
 .post-container-li {
     list-style-type: none;
-    border: solid red;
 }
 
 .announcement-area {
