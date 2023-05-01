@@ -232,7 +232,6 @@
 }
 
 .project-display-area {
-    border: solid red;
     background-color: var(--background-color);
     grid-row-start: 3;
     grid-row-end: 7;
@@ -309,31 +308,22 @@
     list-style-type: none;
 }
 
-.trending-area {
-    border: solid black;
-}
 
 .trending-container {
-    border: solid red;
-    height: 95%;
+    height: 90%;
     background-color: white;
+    border-radius: 10px;
 }
 
 .trending-box {
-    border: solid black;
     height: 25%;
     display: flex;
     justify-content: center;
 }
 
 .trending-box-outside {
-    border: solid blue;
     width: 80%;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
-}
-
-.trending-box-outside > div {
-    border: solid green;
 }
