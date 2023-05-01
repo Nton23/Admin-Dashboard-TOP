@@ -316,9 +316,24 @@
 .trending-container {
     border: solid red;
     height: 95%;
+    background-color: white;
 }
 
 .trending-box {
     border: solid black;
     height: 25%;
+    display: flex;
+    justify-content: center;
+}
+
+.trending-box-outside {
+    border: solid blue;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.trending-box-outside > div {
+    border: solid green;
 }
